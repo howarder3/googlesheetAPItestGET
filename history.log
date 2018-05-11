@@ -1,0 +1,81 @@
+    1  ls
+    2  cd ./my_env/
+    3  history
+    4  source my_env/bin/activate
+    5* cd
+    6  source my_env/bin/activate
+    7  cd ./my_env/
+    8  python update.py
+    9  pip install --upgrade google-api-python-client
+   10  python quickstart.py
+   11  cd ..
+   12  cd ./my_env/
+   13  git init
+   14  git add .
+   15  git commit -m 'init'
+   16  git config --global user.email "howarder3@gmail.com"
+   17  git config --global user.name "howarder3"
+   18  git commit -m 'init'
+   19  git push
+   20  git push googlesheetAPItestGET
+   21  git push --set-upstream googlesheetAPItestGET master
+   22  git push googlesheetAPItestGET
+   23  git push --set-upstream googlesheetAPItestGET master
+   24  git remote  googlesheetAPItestGET master
+   25  git remote add origin https://github.com/howarder3/googlesheetAPItestGET.git
+   26  git push 
+   27  git push --set-upstream origin master
+   28  git pull
+   29  git remote add origin git@github.com:howarder3/googlesheetAPItestGET.git
+   30  git remote remove origin
+   31  git remote add origin git@github.com:howarder3/googlesheetAPItestGET.git
+   32  git push 
+   33  git push --set-upstream origin master
+   34  git push -u origin master
+   35  git remote add origin git@github.com:howarder3/googlesheetAPItestGET.git
+   36  git remote
+   37  git remote remove origin
+   38  git remote
+   39  git remote add origin git@github.com:howarder3/googlesheetAPItestGET
+   40  git push -u origin master
+   41  git push  origin master
+   42  git push 
+   43  git push --set-upstream origin master
+   44  sudo git push -u origin master
+   45  git remote -v
+   46  git push  origin master
+   47  git push origin master
+   48  git remote remove
+   49  git remote remove origin
+   50  git remote add git@github.com:howarder3/googlesheetAPItestGET.git
+   51  git remote add origin git@github.com:howarder3/googlesheetAPItestGET.git
+   52  git remote -v
+   53  git push origin master
+   54  git push -u origin master
+   55  git remote
+   56  git remote -v
+   57  ssh -vvv git@github.com
+   58  ssh -vT git@github.com
+   59  cd ~/.ssh && ssh-keygen
+   60  git config --global user.name "howarder3"
+   61  ssh -vT git@github.com
+   62  cd
+   63  cd ./my_env/
+   64  git commit -m 'test'
+   65  echo "# googlesheetAPItestGET" >> README.md
+   66  git init
+   67  git add README.md
+   68  git commit -m "first commit"
+   69  git remote add origin https://github.com/howarder3/googlesheetAPItestGET.git
+   70  git push -u origin master
+   71  git remote add origin https://github.com/howarder3/googlesheetAPItestGET.git
+   72  git push -u origin master
+   73  git remote
+   74  git remote remove origin
+   75  git remote add origin https://github.com/howarder3/googlesheetAPItestGET.git
+   76  git push -u origin master
+   77  python quickstart.py 
+   78  git add .
+   79  git commit -m 'finish get clock'
+   80  git push
+   81  history > history.log
