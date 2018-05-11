@@ -31,8 +31,8 @@ if not creds or creds.invalid:
 service = build('sheets', 'v4', http=creds.authorize(Http()))
 
 # Call the Sheets API
-SPREADSHEET_ID = '1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms'
-RANGE_NAME = 'Class Data!A2:E'
+SPREADSHEET_ID = '19nQvlQIGRIoGELFxGfHWazG45DM7D2GccZg8wlD85_g'
+RANGE_NAME = 'E:G'
 result = service.spreadsheets().values().get(spreadsheetId=SPREADSHEET_ID,
                                              range=RANGE_NAME).execute()
 values = result.get('values', [])
@@ -42,5 +42,5 @@ else:
     print('Name, Major:')
     for row in values:
         # Print columns A and E, which correspond to indices 0 and 4.
-        print('%s, %s' % (row[0], row[4]))
+        print('%s:%s:%s' % (row[0], row[1],row[2]))
 # [END sheets_quickstart]
