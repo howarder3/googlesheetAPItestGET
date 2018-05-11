@@ -4,7 +4,8 @@
 
 https://developers.google.com/sheets/api/quickstart/python
 
-in terminal
+> in terminal
+
 ```javascript
     6  source my_env/bin/activate
     9  pip install --upgrade google-api-python-client
